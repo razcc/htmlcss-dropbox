@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+         /* --------- HEADER------------ */
+header{
+    background-color: lightseagreen;
+}
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 119, 255);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    
+}
+/* Nav info e funcition propriety */
+#nav-info,
+#nav-function{
+    display: flex;    
+    align-items: center;
+}
+.nav-bar-propriety div{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* Bottono Acedi */
+#nav-function button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+/* JUMBO---- */
+
+/* dimensionamento jumbo */
+
+#jumbo{
+    width: 80%;
+    margin: auto;   
+}
+
+/* Proprieta titolo */
+#titolo{
+    margin-top: 2%;
+    padding: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#paragrafo-jumbo-container-flex{
+    display: flex;
+}
+
+
+
+
+
