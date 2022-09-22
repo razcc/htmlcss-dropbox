@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
-    <!-- ---HEADER--- -->
+    <!-- HEADER -->
     <header>
         <!-- Nav bar -->
         <div id="nav-bar">
@@ -87,12 +88,273 @@
        
     </header>
 
-    <!-- ----MAIN--- -->
+    <!-- MAIN -->
     <main>
+
+        <!-- container del main -->
+        <div id="container-main">
+
+            <!-- titolo -->
+            <div class="titolo-main">
+                <h2>Trova il piano busines che fa per te</h2>
+            </div>
+            
+
+            <!-- tasti tipi di fatturazione -->
+            <div class="tasti-selezione-abbonamento">
+                <input type="radio" id="mensile" name="tipo-di-pagamento" value="Fatturazione">
+                <label for="mensile">Fuatturazione mensile</label>
+
+                <input type="radio" id="annuale" name="tipo-di-pagamento" value=Fatturazione">
+                <label for="annuale">Fatturazione annuale</label>
+            </div>
+            
+            <!-- CONTAINER dei tipi di fatturazione -->
+            <div class="container-colenne-abbonamenti">
+
+                <!--    COLONNA1 -->
+                <div class="colonna">
+
+                    <!-- abbonamento singolo o di gruppo -->
+                    <div class="utente-singolo-title">
+                        <span><i class="fa-solid fa-user"></i></span>
+                        <span>Singolo</span>
+                        
+                    </div>
+
+
+                    <div class="razc">
+                        <!-- nome abbonamento e prezzo -->
+                        <div class="abbonamento">
+                            <h3 class="nome-abbonamento">Professional</h3>
+                            <div>
+                                <div class="prezzo">12.00</div>
+                                <div class="periodo-addebito-abbonamento">/mese</div>
+                            </div>
+                            
+                        </div>
+
+                        <!-- lista caratteristiche abbonamento -->
+                        <div class="lista-caratteristiche-abbonameto">
+
+                            <ul class="caratteristiche-abbonamento list-style-type">
+                                <li class="utente-singolo utente-multiplo">
+                                    <span><i class="fa-solid fa-user"></i></span>
+                                    <span>1 Utente</span>
+                                </li>
+                                <li class="archiviazione">
+                                    <span><i class="fa-solid fa-folder"></i></span>
+                                    <span>5 TB di spazio di archiviazione sicuro</span>
+                                    
+                                </li>
+                                <li class="condivisione">
+                                    <span><i class="fa-solid fa-share-nodes"></i></span>
+                                    <span>Funzioni di produttivita premium e condivizione file semplice e sicura</span>
+                                    
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <!-- Pulsante prova gratis 30 giorni -->
+                        <button class="bottone-prova">
+                            Prova gartis 30 giorni
+                        </button>
+
+
+                        <!-- Link aquisto diretto -->
+                        <div class="link-acquisto">
+                            oppure
+                            <a href="https://www.google.it/">acquista ora</a>
+                        </div>
+
+                        <!-- riga di separazione dopo link  -->
+                        <div class="riga-separazione"></div>
+
+                        <!-- lista comparativa caratteristiche -->
+                        <div class="punti-salienti">
+                            <h4 class="titolo-punti-salinti">Punti Salineti del piano</h4>
+                            <ul class="punti-salineti-lista list-style-type">
+                                <li class="check">
+                                    Invia dile fino a 100 GB con Dropbox Transfert
+                                </li>
+                                <li class="check">
+                                    Cartelle offline su dispositivi mobili
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--    COLONNA2 -->
+                <div class="colonna">
+
+                    <!-- abbonamento singolo o di gruppo -->
+                    <div class="utente-singolo-title">
+                        <span><i class="fa-solid fa-users"></i></i></i></span>
+                        <span>Team</span>
+                        
+                    </div>
+
+
+                    <div class="razc">
+                        <!-- nome abbonamento e prezzo -->
+                        <div class="abbonamento">
+                            <h3 class="nome-abbonamento">Professional</h3>
+                            <div>
+                                <div class="prezzo">12.00</div>
+                                <div class="periodo-addebito-abbonamento">/mese</div>
+                            </div>
+                            
+                        </div>
+
+                        <!-- lista caratteristiche abbonamento -->
+                        <div class="lista-caratteristiche-abbonameto">
+
+                            <ul class="caratteristiche-abbonamento list-style-type">
+                                <li class="utente-singolo utente-multiplo">
+                                    <span><i class="fa-solid fa-user"></i></span>
+                                    <span>1 Utente</span>
+                                </li>
+                                <li class="archiviazione">
+                                    <span><i class="fa-solid fa-folder"></i></span>
+                                    <span>5 TB di spazio di archiviazione sicuro</span>
+                                    
+                                </li>
+                                <li class="condivisione">
+                                    <span><i class="fa-solid fa-share-nodes"></i></span>
+                                    <span>Funzioni di produttivita premium e condivizione file semplice e sicura</span>
+                                    
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <!-- Pulsante prova gratis 30 giorni -->
+                        <button class="bottone-prova">
+                            Prova gartis 30 giorni
+                        </button>
+
+
+                        <!-- Link aquisto diretto -->
+                        <div class="link-acquisto">
+                            oppure
+                            <a href="https://www.google.it/">acquista ora</a>
+                        </div>
+
+                        <!-- riga di separazione dopo link  -->
+                        <div class="riga-separazione"></div>
+
+                        <!-- lista comparativa caratteristiche -->
+                        <div class="punti-salienti">
+                            <h4 class="titolo-punti-salinti">Punti Salineti del piano</h4>
+                            <ul class="punti-salineti-lista list-style-type">
+                                <li class="check">
+                                    Invia dile fino a 100 GB con Dropbox Transfert
+                                </li>
+                                <li class="check">
+                                    Cartelle offline su dispositivi mobili
+                                </li>
+                                <li class="check">
+                                    Cartelle offline su dispositivi mobili
+                                </li>
+                                <li class="check">
+                                    Cartelle offline su dispositivi mobili
+                                </li>
+                                <li class="check">
+                                    Cartelle offline su dispositivi mobili
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!--    COLONNA3 -->
+                <div class="colonna">
+
+                    <!-- abbonamento singolo o di gruppo -->
+                    <div class="utente-singolo-title">
+                        <span><i class="fa-solid fa-house"></i></i></span>
+                        <span>Azienda</span>
+                        
+                    </div>
+
+
+                    <div class="razc">
+                        <!-- nome abbonamento e prezzo -->
+                        <div class="abbonamento">
+                            <h3 class="nome-abbonamento">Professional</h3>
+                            <div>
+                                <div class="prezzo">12.00</div>
+                                <div class="periodo-addebito-abbonamento">/mese</div>
+                            </div>
+                            
+                        </div>
+
+                        <!-- lista caratteristiche abbonamento -->
+                        <div class="lista-caratteristiche-abbonameto">
+
+                            <ul class="caratteristiche-abbonamento list-style-type">
+                                <li class="utente-singolo utente-multiplo">
+                                    <span><i class="fa-solid fa-user"></i></span>
+                                    <span>1 Utente</span>
+                                </li>
+                                <li class="archiviazione">
+                                    <span><i class="fa-solid fa-folder"></i></span>
+                                    <span>5 TB di spazio di archiviazione sicuro</span>
+                                    
+                                </li>
+                                <li class="condivisione">
+                                    <span><i class="fa-solid fa-share-nodes"></i></span>
+                                    <span>Funzioni di produttivita premium e condivizione file semplice e sicura</span>
+                                    
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <!-- Pulsante prova gratis 30 giorni -->
+                        <button class="bottone-prova">
+                            Prova gartis 30 giorni
+                        </button>
+
+
+                        <!-- Link aquisto diretto -->
+                        <div class="link-acquisto">
+                            oppure
+                            <a href="https://www.google.it/">acquista ora</a>
+                        </div>
+
+                        <!-- riga di separazione dopo link  -->
+                        <div class="riga-separazione"></div>
+
+                        <!-- lista comparativa caratteristiche -->
+                        <div class="punti-salienti">
+                            <h4 class="titolo-punti-salinti">Punti Salineti del piano</h4>
+                            <ul class="punti-salineti-lista list-style-type">
+                                <li class="check">
+                                    Invia dile fino a 100 GB con Dropbox Transfert
+                                </li>
+                                <li class="check">
+                                    Cartelle offline su dispositivi mobili
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>    
         
+
     </main>
     
-    <!-- ----FOOTER---- -->
+    <!-- FOOTER -->
     <footer>
 
     </footer>

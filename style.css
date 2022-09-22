@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-         /* --------- HEADER------------ */
+         /* HEADER*/
 header{
     background-color: lightseagreen;
 }
@@ -99,11 +99,6 @@ header{
 }
 
 /* Proprietà immagine jumbo */
-.container-immagineJumbo{
-    position: relative;
-    
-    
-}
 
 .jumbo-immagine img{
     height: 500px;
@@ -111,7 +106,101 @@ header{
 }
 
 
-                 /* ----------MAIN---------- */
+                 /* MAIN */
+/* Container main */
+#container-main{
+    width: 60%;
+    margin: auto;
+    background-color: lightblue;
+}
+
+/* caratteristiche titolo main */
+.titolo-main{
+    
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+/* Bottoni per scelta abbonamento */
+.tasti-selezione-abbonamento label{
+    margin-right: 30px;
+}
+.tasti-selezione-abbonamento{
+  padding-bottom: 40px;
+}
+
+/* Colonne tipi di fatturazione */
+.container-colenne-abbonamenti{
+    display: flex;  
+    justify-content: space-between; 
+}
+
+/* caratteristiche Colonna */
+.colonna{
+    flex-basis: 30%;
+    border: 2px solid grey;
+}
+
+/* Utente singolo o multiplo */
+.utente-singolo-title{
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px solid gray;
+}
+
+.razc{
+    padding: 20px;
+}
+
+/* Proprieta nome abbonamento prezzo per ogni mese */
+.prezzo,
+.periodo-addebito-abbonamento{
+    margin-top: 10px;
+}
+
+.prezzo{
+    font-weight: bold;
+}
+.prezzo::before{
+    content: "\20AC";
+}
+.periodo-addebito-abbonamento{
+    color: gray;
+}
+.abbonamento>div{
+    padding-bottom: 30px;
+}
+
+
+/* Lista caratteristiche abbonamento */
+.list-style-type{
+    list-style-type: none;
+}
+
+.list-style-type li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* Proprieta Link acquisto */
+.link-acquisto{
+    padding-bottom: 50px;
+}
+
+/* Proprieta riga di separazione */
+.riga-separazione{
+    height: 2px;
+    width: 50px;
+    background-color: grey;
+    margin-bottom: 30px;
+}
+
+.check::before{
+    content: "\2713";
+    color: green;
+}
 
 
 
