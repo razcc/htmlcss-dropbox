@@ -99,10 +99,21 @@ header{
 }
 
 /* Proprietà immagine jumbo */
+.container-immagineJumbo{
+    position: relative;
+    
+    
+}
 
 .jumbo-immagine img{
-    height: 500px;    
+    height: 500px;
+    
 }
+
+
+                 /* ----------MAIN---------- */
+
+
 
 
 
