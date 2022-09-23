@@ -302,7 +302,17 @@ header{
     margin-top: 20px;
 }
 
-
+/* Numero di utilizzatori */
+.number-of-users{
+    margin-top: 150px;
+    width: 50%;
+}
+.number-of-users h2{
+    font-size: 40px;
+}
+.info-clienti{
+    padding-top: 50px;
+}
 
 
 
