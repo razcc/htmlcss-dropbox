@@ -93,6 +93,7 @@ header{
 .bottone-prova:hover{
     background-color: green;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 /* Info di anullamento */
@@ -119,7 +120,7 @@ header{
 #container-main{
     width: 55%;
     margin: auto;
-    background-color: lightblue;
+    
 }
 
 /* caratteristiche titolo main */
@@ -265,6 +266,21 @@ header{
     line-height: 150%;
 }
 
+/* Trova partner bottone */
+.find-partner{
+    border: none;
+    background-color: blue;
+    margin-top: 30px;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+}
+.find-partner:hover{
+    background-color: green;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
 
     /* OPERAZIONI DROPBOX */
 .operazioni{
@@ -315,16 +331,107 @@ header{
 }
 
 
+           /* ------  DESIGNIT ------ */
+
+.container-designit{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
 
 
+/* Container Sponsor */
+.container-sponsor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 40%;
+}
+
+/* Designit Centrale */
+.designit{ 
+    flex-basis: 40%;
+    overflow: auto;
+    height: 500px;
+    padding: 50px; 
+}
 
 
+/* Colori sponsor DIMENSIONAMENTO */
+.sponsor-green{
+    background-color: lightgreen;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid green;
+}
+
+.sponsor-brown{
+    background-color: brown;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-blu{
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-red{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
+/* DIMENSIONAMENTO Immagini Sponsor */
+.sponsor-green img{
+    width: 50%;
+    height: 50%;
+}
+.sponsor-brown img{
+    width: 50%;
+    height: 50%;
+}
+.sponsor-blu img{
+    width: 50%;
+    height: 10%;    
+}
+.sponsor-red img{
+    width: 50%;
+    height: 50%;
+}
 
+/* Porta la tua azienda su Dropbox */
+.azienda-su-dropbox{
+    background-color: rgb(2, 134, 146);
+}
+.container-azienda-su-dropbox{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
 
+.azienda-su-dropbox-colonna-sinistra{
+    font-size: 40px;
+    font-weight: bold;
+}
+.azienda-su-dropbox-bottone{
+    padding: 20px 50px 20px 50px;
+    font-size: 20px;
+    cursor: pointer;
 
-
-
-
-
+}
