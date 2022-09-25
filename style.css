@@ -334,25 +334,26 @@ header{
            /* ------  DESIGNIT ------ */
 
 .container-designit{
-    display: flex;
-    justify-content: space-between;
+    display: flex;  
     margin-top: 150px;
 }
-
 
 /* Container Sponsor */
 .container-sponsor{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 40%;
+    width: calc(100vw/3);
+    height: calc(100vh/2);
+
 }
 
 /* Designit Centrale */
 .designit{ 
-    flex-basis: 40%;
+    width: calc(100vw/3);
     overflow: auto;
-    height: 500px;
+    height: calc(100vh/2);    
     padding: 50px; 
+    
 }
 
 
@@ -434,4 +435,36 @@ header{
     font-size: 20px;
     cursor: pointer;
 
+}
+
+/* DOMANDE Frequenti */
+.domande-frenquenti{
+    width: 60%;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+/* Titolo domande */
+.domande-titolo{
+    font-size: 40px;
+}
+
+/* Righe di separazione */
+.riga-di-separazione-nera,
+.riga-di-separazione-grigia{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.riga-di-separazione-grigia{  
+    border: 1px solid lightgray;
+}
+.riga-di-separazione-nera{
+    border: 1px solid black;
+}
+
+/* Domande */
+.domanda{
+    display: flex;
+    justify-content: space-between;
 }
