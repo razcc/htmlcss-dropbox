@@ -336,6 +336,7 @@ header{
 .container-designit{
     display: flex;  
     margin-top: 150px;
+    height: calc(100vw/3); 
 }
 
 /* Container Sponsor */
@@ -343,17 +344,16 @@ header{
     display: flex;
     flex-wrap: wrap;
     width: calc(100vw/3);
-    height: calc(100vh/2);
+    height: calc(100vw/3);
+    
 
 }
 
 /* Designit Centrale */
 .designit{ 
     width: calc(100vw/3);
-    overflow: auto;
-    height: calc(100vh/2);    
-    padding: 50px; 
-    
+    overflow: auto;   
+    padding: 50px;    
 }
 
 
@@ -400,18 +400,22 @@ header{
 .sponsor-green img{
     width: 50%;
     height: 50%;
+    filter: invert(1);
 }
 .sponsor-brown img{
     width: 50%;
     height: 50%;
+    filter: invert(1);
 }
 .sponsor-blu img{
     width: 50%;
-    height: 10%;    
+    height: 10%; 
+    filter: invert(1);   
 }
 .sponsor-red img{
     width: 50%;
     height: 50%;
+    filter: invert(1);
 }
 
 /* Porta la tua azienda su Dropbox */
@@ -463,11 +467,36 @@ header{
     border: 1px solid black;
 }
 
-/* Domande */
+/* Domande display flex*/
 .domanda{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+/* Paragrafo e freccia su Display NONE di base */
+.domanda p{
+    margin-top: 50px;
+    display: none;
+}
+.freccia-domande-su{
+    display: none;
+}
+
+
+/* Hover per mostrare Il cambiamento */
+.container-domanda-frenquente:hover .freccia-domande-giu{
+    display: none;
+}
+.container-domanda-frenquente:hover p{
+    display: inline-block;
+}
+.container-domanda-frenquente:hover .freccia-domande-su{
+    display: inline-block;
+    font-weight: bold;
+}
+
+
 
    /* -------FOOTER----- */
 footer{
